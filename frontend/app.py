@@ -4,7 +4,7 @@ from pdf2image import convert_from_bytes
 import ast
 import time
 
-POPPLER_PATH = r"C:/poppler-24.02.0/Library/bin"
+POPPLER_PATH = r"C:/poppler-24.08.0/Library/bin"
 URL = "http://127.0.0.1:8000/extract_from_doc"
 
 st.title("Medical Data Extractor 👩‍⚕️")
